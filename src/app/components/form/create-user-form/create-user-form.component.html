@@ -1,0 +1,39 @@
+<div class="card shadow-3">
+    <h5>Scenery: Form for Create User </h5>
+
+</div>
+
+
+<div class="card shadow-3">
+    <h5> Create User </h5>
+    
+    <form [formGroup]="createUser" (keyup.enter)="saveData(createUser.value)" (ngSubmit)="saveData(createUser.value)">
+     
+       <div class="p-fluid grid">
+
+        <div class="field col-12 md:col-4">
+            <input type="text" [formControl]="createUser.controls['name']"  pInputText  placeholder="name">
+        </div>
+
+        <div class="field col-12 md:col-4">
+            <input type="text" [formControl]="createUser.controls['email']"  pInputText  placeholder="e-mail">
+        </div>
+
+        <div class="field col-12 md:col-4">
+            <input type="text" [formControl]="createUser.controls['emailConfirmation']"  pInputText  placeholder="e-mail confirmation ">
+        </div>
+
+        <div class="field col-12 md:col-8">
+            <input type="text" [formControl]="createUser.controls['address']"  pInputText  placeholder="Address ">
+        </div>
+
+        <div class="field col-12 md:col-4">
+            <input type="text" [formControl]="createUser.controls['number']" required pInputText  placeholder="Number ">
+        </div>
+
+       </div>
+
+       <button pButton type="submit" label="Small" icon="pi pi-check" ></button>
+    </form>
+
+</div>

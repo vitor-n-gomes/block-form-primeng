@@ -19,6 +19,12 @@ export class AppMenuComponent implements OnInit {
                 items: [
                     { label: 'Dashboard', icon: 'pi pi-fw pi-home', routerLink: ['/'] }
                 ]
+            },
+            {
+                label: 'Form',
+                items: [
+                    { label: 'Create User', icon: 'pi pi-fw pi-home', routerLink: ['/form/create-user'] }
+                ]
             }
         ];
     }
