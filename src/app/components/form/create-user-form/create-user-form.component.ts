@@ -11,15 +11,12 @@ export class CreateUserFormComponent implements OnInit {
 
   createUser: FormGroup;
 
-  jsonOutput: string;
-
   emailPattern = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 
   numberPattern = /^[0-9]*$/;
 
-  constructor( private formBuilder: FormBuilder) { }
+  constructor( private formBuilder: FormBuilder) {
 
-  ngOnInit(): void {
     this.createUser = this.formBuilder.group({
 
       name: this.formBuilder.control('', [
@@ -43,6 +40,11 @@ export class CreateUserFormComponent implements OnInit {
       optionalAddress: this.formBuilder.control(''),
       paymentOption: this.formBuilder.control('', [Validators.required])
     });
+
+   }
+
+  ngOnInit(): void {
+   
 
 
   }

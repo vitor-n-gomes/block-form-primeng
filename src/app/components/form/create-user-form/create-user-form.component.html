@@ -11,23 +11,29 @@
      
        <div class="p-fluid grid">
 
-        <div class="field col-12 md:col-4">
-            <input type="text" [formControl]="createUser.controls['name']"  pInputText  placeholder="name">
+        <div class="col-12 md:col-4">
+            <app-input errorMessage="Campo obrigatório e no mínimo 5 carácteres" label="Name">
+                <input type="text" [formControl]="createUser.controls['name']"  pInputText  placeholder="Name">
+            </app-input>
         </div>
 
         <div class="field col-12 md:col-4">
-            <input type="text" [formControl]="createUser.controls['email']"  pInputText  placeholder="e-mail">
+            <label>E-mail:</label>
+            <input type="text" [formControl]="createUser.controls['email']"  pInputText  placeholder="E-mail">
         </div>
 
         <div class="field col-12 md:col-4">
-            <input type="text" [formControl]="createUser.controls['emailConfirmation']"  pInputText  placeholder="e-mail confirmation ">
+            <label>E-mail Confirmation:</label>
+            <input type="text" [formControl]="createUser.controls['emailConfirmation']"  pInputText  placeholder="E-mail Confirmation ">
         </div>
 
         <div class="field col-12 md:col-8">
+            <label>E-mail:</label>
             <input type="text" [formControl]="createUser.controls['address']"  pInputText  placeholder="Address ">
         </div>
 
         <div class="field col-12 md:col-4">
+            <label>E-mail:</label>
             <input type="text" [formControl]="createUser.controls['number']" required pInputText  placeholder="Number ">
         </div>
 
