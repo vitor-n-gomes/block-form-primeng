@@ -18,6 +18,7 @@ import { InputComponent } from '../../shared/input/input.component';
     CommonModule,
     FormRoutingModule,
     ReactiveFormsModule,
+    FormsModule,
     InputNumberModule,
     InputMaskModule,
     InputSwitchModule,

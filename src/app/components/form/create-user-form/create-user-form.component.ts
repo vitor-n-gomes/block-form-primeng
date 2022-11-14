@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {   FormBuilder, FormGroup, Validators} from '@angular/forms';
+import { FormsModule,  FormBuilder, FormGroup, Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-create-user-form',

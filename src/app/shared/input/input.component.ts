@@ -24,18 +24,20 @@ export class InputComponent implements OnInit, AfterContentInit {
 
   ngAfterContentInit(): void {
     this.input = this.model || this.control;
+    console.log(this.model, this.control);
     if(this.input === undefined) {
-      throw new Error("Esse componente precisa ser usado com uma " +
-                      "diretiva ngModel ou FormControl!");
+      throw new Error("This component requires directive ngModel or FormControl ");
     }
   }
 
   hasSuccess(): boolean {
-    return this.input.valid && (this.input.dirty || this.input.touched)
+    //return this.input.valid && (this.input.dirty || this.input.touched)
+    return true;
   }
   
   hasError(): boolean {
-    return !this.input.valid && (this.input.dirty || this.input.touched)
+    //return !this.input.valid && (this.input.dirty || this.input.touched)  
+    return false; 
   }
 }
 
