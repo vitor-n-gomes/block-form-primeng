@@ -11,7 +11,6 @@ import {ButtonModule} from 'primeng/button';
 
 import { FormRoutingModule } from './form-routing.module';
 import { CreateUserFormComponent } from './create-user-form/create-user-form.component';
-import { InputComponent } from '../../shared/input/input.component';
 
 @NgModule({
   imports: [
@@ -31,6 +30,6 @@ import { InputComponent } from '../../shared/input/input.component';
     FormsModule,
     ReactiveFormsModule
   ],
-  declarations: [CreateUserFormComponent, InputComponent]
+  declarations: [CreateUserFormComponent]
 })
 export class FormModule { }

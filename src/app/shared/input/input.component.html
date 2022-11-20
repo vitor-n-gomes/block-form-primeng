@@ -1,9 +1,0 @@
-<div class="field" [class.has-success]="hasSuccess()" [class.has-error]="hasError()">
-    <label class="control-label sr-only" for="inputSuccess"> {{ label }}</label>
-
-    <ng-content></ng-content>
-
-    
-    <small *ngIf="showTip && hasSuccess()" class="p-error block">   <i class="fa fa-check"></i> Ok</small>
-    <small *ngIf="showTip && hasError()" class="p-error block"><i class="fa fa-remove"></i> {{ errorMessage }}</small>
-</div>
