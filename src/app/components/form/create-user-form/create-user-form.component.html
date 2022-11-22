@@ -12,27 +12,23 @@
        <div class="p-fluid grid">
 
         <div class="col-12 md:col-4">
-          
+          <app-text-field [label]="'Name'" [control]="createUser.get('name')" [placeholder]="'Name'" [errorMessage]="'This field is required'"></app-text-field>
         </div>
 
-        <div class="field col-12 md:col-4">
-            <label>E-mail:</label>
-            <input type="text" [formControl]="createUser.controls['email']"  pInputText  placeholder="E-mail">
+        <div class="col-12 md:col-4"> 
+            <app-text-field [label]="'E-mail'" [control]="createUser.get('email')" [placeholder]="'E-mail'" [errorMessage]="'This field is required'" ></app-text-field>
         </div>
 
-        <div class="field col-12 md:col-4">
-            <label>E-mail Confirmation:</label>
-            <input type="text" [formControl]="createUser.controls['emailConfirmation']"  pInputText  placeholder="E-mail Confirmation ">
+        <div class="col-12 md:col-4">
+            <app-text-field [label]="'E-mail Confirmation'" [control]="createUser.get('email')" [placeholder]="'E-mail Confirmation'" ></app-text-field>
         </div>
 
-        <div class="field col-12 md:col-8">
-            <label>E-mail:</label>
-            <input type="text" [formControl]="createUser.controls['address']"  pInputText  placeholder="Address ">
+        <div class="col-12 md:col-8">
+            <app-text-field [label]="'Address'" [control]="createUser.get('address')" [placeholder]="'Address'"></app-text-field>
         </div>
 
-        <div class="field col-12 md:col-4">
-            <label>E-mail:</label>
-            <input type="text" [formControl]="createUser.controls['number']" required pInputText  placeholder="Number ">
+        <div class="col-12 md:col-4">
+            <app-text-field [label]="'Number'" [control]="createUser.get('number')" [placeholder]="'Number'"></app-text-field>
         </div>
 
        </div>

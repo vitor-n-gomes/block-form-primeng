@@ -1,0 +1,12 @@
+<div class="field" [class.has-success]="hasSuccess()" [class.has-error]="hasError()">
+    <label>{{label}}:</label>
+    <input type="text" [placeholder]="placeholder" [formControl]="control" (blur)="onBlur.emit($event)" pInputText />
+    
+    <small *ngIf="hasSuccess()">
+        <i class="fa fa-check"></i> Ok
+    </small>
+
+    <small *ngIf="hasError()">
+        <i class="fa fa-remove"></i> {{ errorMessage }}
+    </small>
+</div>

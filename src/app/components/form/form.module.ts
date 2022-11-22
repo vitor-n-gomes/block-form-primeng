@@ -11,6 +11,7 @@ import {ButtonModule} from 'primeng/button';
 
 import { FormRoutingModule } from './form-routing.module';
 import { CreateUserFormComponent } from './create-user-form/create-user-form.component';
+import { SharedModule } from '../../shared/shared.module'
 
 @NgModule({
   imports: [
@@ -23,7 +24,8 @@ import { CreateUserFormComponent } from './create-user-form/create-user-form.com
     InputSwitchModule,
     InputTextModule,
     ButtonModule,
-    InputTextareaModule
+    InputTextareaModule,
+    SharedModule
   ],
   exports: [
     CommonModule,
