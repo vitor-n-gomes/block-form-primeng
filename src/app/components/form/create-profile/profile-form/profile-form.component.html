@@ -1,0 +1,46 @@
+<p-dialog header="{{title}}" [(visible)]="display" (onHide)="onClose()" [modal]="true" [breakpoints]="{'960px': '75vw', '640px': '90vw'}"
+    [style]="{width: '50vw'}">
+    <form [formGroup]="createUser" (ngSubmit)="onSubmit()" id="formCreateProfile">
+        <div class="p-fluid grid">
+
+            <div class="col-12 md:col-6 lg:col-6 pb-0">
+                <app-text-field [label]="'First Name'" [control]="createUser.get('firstName')" [placeholder]="''"
+                    [errorMessage]="'This field is required'"></app-text-field>
+            </div>
+
+            <div class="col-12 md:col-6 lg:col-6  pb-0">
+                <app-text-field [label]="'Second Name'" [control]="createUser.get('lastName')" [placeholder]="''"
+                    [errorMessage]="'This field is required'"></app-text-field>
+            </div>
+
+            <div class="col-12 md:col-12 lg:col-12 pb-0">
+                <h5 class="m-1 ml-2"> Address</h5>
+            </div>
+
+            <div class="col-12 md:col-6 lg:col-6 pb-0 pt-0">
+                <app-text-field [label]="'Street'" [control]="createUser.get('zip.street')" [placeholder]="''"
+                    [errorMessage]="'This field is required'"></app-text-field>
+            </div>
+
+            <div class="col-12 md:col-6 lg:col-6  pb-0 pt-0">
+                <app-text-field [label]="'City'" [control]="createUser.get('zip.city')" [placeholder]="''"
+                    [errorMessage]="'This field is required'"></app-text-field>
+            </div>
+            
+            <div class="col-12 md:col-6 lg:col-6 pb-0 pt-0">
+                <app-text-field [label]="'State'" [control]="createUser.get('zip.state')" [placeholder]="''"
+                    [errorMessage]="'This field is required'"></app-text-field>
+            </div>
+
+            <div class="col-12 md:col-6 lg:col-6  pb-0 pt-0">
+                <app-text-field [label]="'Zip Code'" [control]="createUser.get('zip.zip')" [placeholder]="''"
+                    [errorMessage]="'This field is required'"></app-text-field>
+            </div>
+        </div>
+    </form>
+
+    <ng-template pTemplate="footer">
+        <p-button  styleClass="p-button-text"></p-button>
+        <button pButton pRipple type="submit" icon="pi pi-check" form="formCreateProfile" label="Ok" class="p-button-outlined p-button-info"></button>
+    </ng-template>
+</p-dialog>

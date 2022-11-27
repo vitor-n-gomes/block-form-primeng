@@ -21,7 +21,7 @@ export class CreateUserFormComponent implements OnInit {
 
       name: this.formBuilder.control('', [
         Validators.required, 
-        Validators.minLength(5)]),
+        Validators.maxLength(5)]),
 
       email: this.formBuilder.control('', [
         Validators.required, Validators.email,

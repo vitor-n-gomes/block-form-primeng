@@ -1,6 +1,9 @@
-<div class="field" [class.has-success]="hasSuccess()" [class.has-error]="hasError()">
-    <label>{{label}}:</label>
-    <input type="text" [placeholder]="placeholder" [formControl]="control" (blur)="onBlur.emit($event)" pInputText />
+<div class="field pt-3 pb-0" [class.has-success]="hasSuccess()" [class.has-error]="hasError()">
+
+    <span class="p-float-label">
+        <input type="text" [placeholder]="placeholder" [formControl]="control" (blur)="onBlur.emit($event)" pInputText />
+        <label>{{label}}</label>
+    </span>
     
     <small *ngIf="hasSuccess()">
         <i class="fa fa-check"></i> Ok

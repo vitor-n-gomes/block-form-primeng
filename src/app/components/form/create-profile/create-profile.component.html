@@ -1,0 +1,20 @@
+<div class="card shadow-3">
+    <div class="flex justify-content-between flex-wrap ">
+        <div class="flex align-items-center justify-content-center ">
+            <h5 class="m-0">Create Profile</h5>
+        </div>
+        <div class="flex align-items-center justify-content-end flex-wrap  gap-2">
+            <div class="flex align-items-center justify-content-center">
+                <button pButton pRipple type="button" pTooltip="Filter" icon="fa-solid fa-filter"
+                    class="p-button-outlined p-button-info"></button>
+            </div>
+            <div class="flex align-items-center justify-content-center">
+                <button pButton pRipple type="button" (click)="onClickShowProfileForm()" pTooltip="Create new profile" icon="fa-solid fa-user-plus"
+                    class="p-button-outlined p-button-info"></button>
+            </div>
+        </div>
+    </div>
+    <hr/>
+</div>
+
+<app-profile-form [display]="showProfileForm" (close)="onClose()"></app-profile-form>

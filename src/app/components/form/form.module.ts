@@ -8,10 +8,14 @@ import {InputSwitchModule} from 'primeng/inputswitch';
 import {InputTextModule} from 'primeng/inputtext';
 import {InputTextareaModule} from 'primeng/inputtextarea';
 import {ButtonModule} from 'primeng/button';
+import {TooltipModule} from 'primeng/tooltip';
+import {DialogModule} from 'primeng/dialog';
 
 import { FormRoutingModule } from './form-routing.module';
 import { CreateUserFormComponent } from './create-user-form/create-user-form.component';
-import { SharedModule } from '../../shared/shared.module'
+import { SharedModule } from '../../shared/shared.module';
+import { CreateProfileComponent } from './create-profile/create-profile.component';
+import { ProfileFormComponent } from './create-profile/profile-form/profile-form.component'
 
 @NgModule({
   imports: [
@@ -24,7 +28,9 @@ import { SharedModule } from '../../shared/shared.module'
     InputSwitchModule,
     InputTextModule,
     ButtonModule,
+    TooltipModule,
     InputTextareaModule,
+    DialogModule,
     SharedModule
   ],
   exports: [
@@ -32,6 +38,6 @@ import { SharedModule } from '../../shared/shared.module'
     FormsModule,
     ReactiveFormsModule
   ],
-  declarations: [CreateUserFormComponent]
+  declarations: [CreateUserFormComponent, CreateProfileComponent, ProfileFormComponent]
 })
 export class FormModule { }
