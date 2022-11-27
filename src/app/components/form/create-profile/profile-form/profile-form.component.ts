@@ -1,6 +1,8 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, FormArray } from '@angular/forms';
 
+import { Subscription } from 'rxjs';
+
 import { ProfileService } from 'src/app/service/profile.service';
 import { Profile } from '../../../../model/profile'
 
@@ -19,6 +21,8 @@ export class ProfileFormComponent implements OnInit {
   isEdit: boolean = false; 
 
   createUser: FormGroup;
+
+  subscription!: Subscription;
 
   constructor(private formBuilder: FormBuilder, private profileService: ProfileService) {
 
@@ -39,7 +43,7 @@ export class ProfileFormComponent implements OnInit {
     this.title = 'Create Profile'; 
     this.isEdit = false; 
     
-    this.profileService.profile.subscribe((response) => {
+    this.subscription = this.profileService.profile.subscribe((response) => {
       if(response){
         
         this.createUser.patchValue({ ...response })
@@ -57,9 +61,12 @@ export class ProfileFormComponent implements OnInit {
   }
 
   onClose() {
+
+    this.subscription.unsubscribe();
     this.createUser.reset();
     this.display = false;
     this.close.emit();
+    
   }
 
 
