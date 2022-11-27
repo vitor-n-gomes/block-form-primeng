@@ -1,5 +1,6 @@
-import { Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, FormArray } from '@angular/forms';
+import { Profile } from '../../../../model/profile'
 
 @Component({
   selector: 'app-profile-form',
@@ -8,12 +9,12 @@ import { FormBuilder, FormGroup, Validators, FormArray } from '@angular/forms';
 })
 export class ProfileFormComponent implements OnInit {
 
-  @Output() close : EventEmitter<any> = new EventEmitter();
+  @Output() close: EventEmitter<any> = new EventEmitter();
 
-  @Input() profileData: any;
+  @Input() profileData: Profile;
 
   @Input() display: boolean = true;
-  
+
   title: string = 'Create User';
 
   createUser: FormGroup;
@@ -23,25 +24,26 @@ export class ProfileFormComponent implements OnInit {
     this.createUser = this.formBuilder.group({
       firstName: ['', Validators.required],
       lastName: [''],
-      zip: this.formBuilder.group({
-        street: [''],
-        city: [''],
-        state: [''],
-        zip: ['']
-      })
+      street: [''],
+      city: [''],
+      state: [''],
+      zip: [''],
+      _id: ['']
     });
 
   }
 
   ngOnInit(): void {
+    console.log(this.profileData);
+    this.createUser.patchValue({...this.profileData});
   }
 
-  onSubmit(){
-   
+  onSubmit() {
+
   }
 
-  onClose(){
-    this.display = false; 
+  onClose() {
+    this.display = false;
     this.close.emit();
   }
 

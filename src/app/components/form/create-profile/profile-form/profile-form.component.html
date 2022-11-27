@@ -18,22 +18,22 @@
             </div>
 
             <div class="col-12 md:col-6 lg:col-6 pb-0 pt-0">
-                <app-text-field [label]="'Street'" [control]="createUser.get('zip.street')" [placeholder]="''"
+                <app-text-field [label]="'Street'" [control]="createUser.get('street')" [placeholder]="''"
                     [errorMessage]="'This field is required'"></app-text-field>
             </div>
 
             <div class="col-12 md:col-6 lg:col-6  pb-0 pt-0">
-                <app-text-field [label]="'City'" [control]="createUser.get('zip.city')" [placeholder]="''"
+                <app-text-field [label]="'City'" [control]="createUser.get('city')" [placeholder]="''"
                     [errorMessage]="'This field is required'"></app-text-field>
             </div>
             
             <div class="col-12 md:col-6 lg:col-6 pb-0 pt-0">
-                <app-text-field [label]="'State'" [control]="createUser.get('zip.state')" [placeholder]="''"
+                <app-text-field [label]="'State'" [control]="createUser.get('state')" [placeholder]="''"
                     [errorMessage]="'This field is required'"></app-text-field>
             </div>
 
             <div class="col-12 md:col-6 lg:col-6  pb-0 pt-0">
-                <app-text-field [label]="'Zip Code'" [control]="createUser.get('zip.zip')" [placeholder]="''"
+                <app-text-field [label]="'Zip Code'" [control]="createUser.get('zip')" [placeholder]="''"
                     [errorMessage]="'This field is required'"></app-text-field>
             </div>
         </div>
@@ -41,6 +41,6 @@
 
     <ng-template pTemplate="footer">
         <p-button  styleClass="p-button-text"></p-button>
-        <button pButton pRipple type="submit" icon="pi pi-check" form="formCreateProfile" label="Ok" class="p-button-outlined p-button-info"></button>
+        <button pButton pRipple type="submit" icon="pi pi-user-plus" form="formCreateProfile" label="Create Profile" class="p-button-outlined p-button-info"></button>
     </ng-template>
 </p-dialog>

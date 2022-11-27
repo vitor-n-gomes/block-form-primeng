@@ -1,7 +1,7 @@
 [
     {
         "_id": "6382b09d6c0fd1b123a40c87",
-        "fistName": "Bernadette Shannon",
+        "firstName": "Bernadette Shannon",
         "lastName": "Roman",
         "zipCode": 4994,
         "state": "Utah",
@@ -10,7 +10,7 @@
     },
     {
         "_id": "6382b09dd001228563abd441",
-        "fistName": "Kelli Lopez",
+        "firstName": "Kelli Lopez",
         "lastName": "Gutierrez",
         "zipCode": 2036,
         "state": "Wyoming",
@@ -19,7 +19,7 @@
     },
     {
         "_id": "6382b09d2c77e39ba54eebd7",
-        "fistName": "Mann Barber",
+        "firstName": "Mann Barber",
         "lastName": "Holcomb",
         "zipCode": 8206,
         "state": "Virginia",
@@ -28,7 +28,7 @@
     },
     {
         "_id": "6382b09dc71b9f35875cbfc7",
-        "fistName": "Shannon Ramirez",
+        "firstName": "Shannon Ramirez",
         "lastName": "Bell",
         "zipCode": 7129,
         "state": "Hawaii",
@@ -37,7 +37,7 @@
     },
     {
         "_id": "6382b09d36eed591cb9bbb2c",
-        "fistName": "Anthony Hartman",
+        "firstName": "Anthony Hartman",
         "lastName": "Hooper",
         "zipCode": 5433,
         "state": "North Dakota",
@@ -46,7 +46,7 @@
     },
     {
         "_id": "6382b0c3a2e34b0cc41db809",
-        "fistName": "Norman Schroeder",
+        "firstName": "Norman Schroeder",
         "lastName": "Graves",
         "zipCode": 9693,
         "state": "New Hampshire",
@@ -55,7 +55,7 @@
     },
     {
         "_id": "6382b0c3ad5795d75f39806a",
-        "fistName": "Ann Cardenas",
+        "firstName": "Ann Cardenas",
         "lastName": "Meadows",
         "zipCode": 3115,
         "state": "Virginia",
@@ -64,7 +64,7 @@
     },
     {
         "_id": "6382b0c38dae9889447c66f7",
-        "fistName": "Alexandria Phillips",
+        "firstName": "Alexandria Phillips",
         "lastName": "Williamson",
         "zipCode": 9108,
         "state": "Hawaii",
@@ -73,7 +73,7 @@
     },
     {
         "_id": "6382b0c38999055747a231fa",
-        "fistName": "Rhonda Baker",
+        "firstName": "Rhonda Baker",
         "lastName": "Mack",
         "zipCode": 4904,
         "state": "Ohio",
@@ -82,7 +82,7 @@
     },
     {
         "_id": "6382b0c316523687c4c9d9da",
-        "fistName": "Laverne Fleming",
+        "firstName": "Laverne Fleming",
         "lastName": "Zamora",
         "zipCode": 1756,
         "state": "Pennsylvania",
@@ -91,7 +91,7 @@
     },
     {
         "_id": "6382b0c3bbfea14a8508c75c",
-        "fistName": "Pitts Maxwell",
+        "firstName": "Pitts Maxwell",
         "lastName": "Pennington",
         "zipCode": 5264,
         "state": "North Carolina",
@@ -100,7 +100,7 @@
     },
     {
         "_id": "6382b0c3f322b4646cf436da",
-        "fistName": "Beatriz Bray",
+        "firstName": "Beatriz Bray",
         "lastName": "Chapman",
         "zipCode": 264,
         "state": "Wyoming",
@@ -109,7 +109,7 @@
     },
     {
         "_id": "6382b0d7c05007038893285d",
-        "fistName": "Alison Duffy",
+        "firstName": "Alison Duffy",
         "lastName": "Mcdonald",
         "zipCode": 107,
         "state": "Minnesota",
@@ -118,7 +118,7 @@
     },
     {
         "_id": "6382b0d7bd8e69ade93a5f6b",
-        "fistName": "Randi Palmer",
+        "firstName": "Randi Palmer",
         "lastName": "Marquez",
         "zipCode": 9925,
         "state": "Texas",
@@ -127,7 +127,7 @@
     },
     {
         "_id": "6382b0d79cceb2aef36548b0",
-        "fistName": "Padilla Silva",
+        "firstName": "Padilla Silva",
         "lastName": "Norman",
         "zipCode": 9067,
         "state": "Rhode Island",
@@ -136,7 +136,7 @@
     },
     {
         "_id": "6382b0d7da2565c2e619211d",
-        "fistName": "Opal Oliver",
+        "firstName": "Opal Oliver",
         "lastName": "Sheppard",
         "zipCode": 5072,
         "state": "Louisiana",
@@ -145,7 +145,7 @@
     },
     {
         "_id": "6382b0d78cc900671f1d265e",
-        "fistName": "Willa Wynn",
+        "firstName": "Willa Wynn",
         "lastName": "Gonzalez",
         "zipCode": 8775,
         "state": "Puerto Rico",
@@ -154,7 +154,7 @@
     },
     {
         "_id": "6382b0e467818bd427c78978",
-        "fistName": "Ingram Morales",
+        "firstName": "Ingram Morales",
         "lastName": "Wong",
         "zipCode": 5600,
         "state": "Indiana",
@@ -163,7 +163,7 @@
     },
     {
         "_id": "6382b0e47c01f48adf2797aa",
-        "fistName": "Mia Webster",
+        "firstName": "Mia Webster",
         "lastName": "Tran",
         "zipCode": 1160,
         "state": "South Carolina",
@@ -172,7 +172,7 @@
     },
     {
         "_id": "6382b0e459938ad596608f54",
-        "fistName": "Kelley Duran",
+        "firstName": "Kelley Duran",
         "lastName": "Mckay",
         "zipCode": 3390,
         "state": "Arizona",
@@ -181,7 +181,7 @@
     },
     {
         "_id": "6382b0e458cc5b494baf3fc1",
-        "fistName": "Janie Dunlap",
+        "firstName": "Janie Dunlap",
         "lastName": "Burns",
         "zipCode": 3888,
         "state": "Oregon",
@@ -190,7 +190,7 @@
     },
     {
         "_id": "6382b0e482813f17dca0325d",
-        "fistName": "Vivian Flowers",
+        "firstName": "Vivian Flowers",
         "lastName": "Williams",
         "zipCode": 9656,
         "state": "Pennsylvania",
@@ -199,7 +199,7 @@
     },
     {
         "_id": "6382b0e444aa70b5d2fef960",
-        "fistName": "Kimberley Woods",
+        "firstName": "Kimberley Woods",
         "lastName": "Webb",
         "zipCode": 826,
         "state": "Wyoming",
@@ -208,7 +208,7 @@
     },
     {
         "_id": "6382b0e424cb35472dd82ff8",
-        "fistName": "Leach Benjamin",
+        "firstName": "Leach Benjamin",
         "lastName": "Gross",
         "zipCode": 9625,
         "state": "Arkansas",
@@ -217,7 +217,7 @@
     },
     {
         "_id": "6382b0f19d67650947c5b6d8",
-        "fistName": "Jewel Wilkinson",
+        "firstName": "Jewel Wilkinson",
         "lastName": "Saunders",
         "zipCode": 8309,
         "state": "Indiana",
@@ -226,7 +226,7 @@
     },
     {
         "_id": "6382b0f181647dc00261f8b6",
-        "fistName": "Gilbert Solomon",
+        "firstName": "Gilbert Solomon",
         "lastName": "Rollins",
         "zipCode": 3504,
         "state": "Kansas",
@@ -235,7 +235,7 @@
     },
     {
         "_id": "6382b0f131f6812d27315842",
-        "fistName": "Bender Cantu",
+        "firstName": "Bender Cantu",
         "lastName": "Walton",
         "zipCode": 1539,
         "state": "Palau",
@@ -244,7 +244,7 @@
     },
     {
         "_id": "6382b0f1d6e30b852bf97b7e",
-        "fistName": "Solis Harris",
+        "firstName": "Solis Harris",
         "lastName": "Campbell",
         "zipCode": 5221,
         "state": "Wisconsin",
@@ -253,7 +253,7 @@
     },
     {
         "_id": "6382b0f1d941da915d7cadae",
-        "fistName": "Woodward Lynn",
+        "firstName": "Woodward Lynn",
         "lastName": "White",
         "zipCode": 821,
         "state": "Michigan",
@@ -262,7 +262,7 @@
     },
     {
         "_id": "6382b0f13f7d4ef8025f8abe",
-        "fistName": "Oneil Owens",
+        "firstName": "Oneil Owens",
         "lastName": "Rodriquez",
         "zipCode": 958,
         "state": "Virgin Islands",
@@ -271,7 +271,7 @@
     },
     {
         "_id": "6382b0f10764c13a5af0a59d",
-        "fistName": "Evans Haley",
+        "firstName": "Evans Haley",
         "lastName": "Daniels",
         "zipCode": 7902,
         "state": "Massachusetts",
@@ -280,7 +280,7 @@
     },
     {
         "_id": "6382b0fe1fee62a8466402f1",
-        "fistName": "Kari Stuart",
+        "firstName": "Kari Stuart",
         "lastName": "Parrish",
         "zipCode": 6459,
         "state": "Louisiana",
@@ -289,7 +289,7 @@
     },
     {
         "_id": "6382b0feb7989eb21cd85d41",
-        "fistName": "Hayes Wells",
+        "firstName": "Hayes Wells",
         "lastName": "Patel",
         "zipCode": 2602,
         "state": "Minnesota",
@@ -298,7 +298,7 @@
     },
     {
         "_id": "6382b0fe87f79f485a525d3c",
-        "fistName": "Wiley Jensen",
+        "firstName": "Wiley Jensen",
         "lastName": "Baxter",
         "zipCode": 5426,
         "state": "Iowa",
@@ -307,7 +307,7 @@
     },
     {
         "_id": "6382b0fe547fb01e63b04ffa",
-        "fistName": "Logan Pitts",
+        "firstName": "Logan Pitts",
         "lastName": "Gilliam",
         "zipCode": 7497,
         "state": "Maine",
@@ -316,7 +316,7 @@
     },
     {
         "_id": "6382b0fe09c4c32af8628fe8",
-        "fistName": "Swanson Burton",
+        "firstName": "Swanson Burton",
         "lastName": "Mercer",
         "zipCode": 6510,
         "state": "Michigan",
@@ -325,7 +325,7 @@
     },
     {
         "_id": "6382b0fe7c9a9e0bf4a0f618",
-        "fistName": "Juanita Davis",
+        "firstName": "Juanita Davis",
         "lastName": "Chen",
         "zipCode": 1773,
         "state": "Guam",

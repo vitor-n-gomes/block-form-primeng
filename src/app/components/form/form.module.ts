@@ -10,6 +10,9 @@ import {InputTextareaModule} from 'primeng/inputtextarea';
 import {ButtonModule} from 'primeng/button';
 import {TooltipModule} from 'primeng/tooltip';
 import {DialogModule} from 'primeng/dialog';
+import {TableModule} from 'primeng/table';
+import {ContextMenuModule} from 'primeng/contextmenu';
+import {MenuModule} from 'primeng/menu';
 
 import { FormRoutingModule } from './form-routing.module';
 import { CreateUserFormComponent } from './create-user-form/create-user-form.component';
@@ -31,6 +34,9 @@ import { ProfileFormComponent } from './create-profile/profile-form/profile-form
     TooltipModule,
     InputTextareaModule,
     DialogModule,
+    TableModule,
+    ContextMenuModule,
+    MenuModule,
     SharedModule
   ],
   exports: [
