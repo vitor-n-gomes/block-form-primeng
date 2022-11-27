@@ -39,9 +39,6 @@ export class ProfileFormComponent implements OnInit {
   }
 
   ngOnInit(): void {
-
-    this.title = 'Create Profile'; 
-    this.isEdit = false; 
     
     this.subscription = this.profileService.profile.subscribe((response) => {
       if(response){
@@ -62,11 +59,18 @@ export class ProfileFormComponent implements OnInit {
 
   onClose() {
 
-    this.subscription.unsubscribe();
-    this.createUser.reset();
+    this.reset();
     this.display = false;
     this.close.emit();
-    
+
+  }
+
+  reset(){
+
+    this.title = 'Create Profile'; 
+    this.isEdit = false; 
+    this.createUser.reset();
+
   }
 
 

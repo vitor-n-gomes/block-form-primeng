@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ProfileService } from 'src/app/service/profile.service';
 import { Profile } from '../../../model/profile'
 import { MenuItem } from 'primeng/api'
-import { Subject } from "rxjs";
+
 @Component({
   selector: 'app-create-profile',
   templateUrl: './create-profile.component.html',
@@ -17,8 +17,6 @@ export class CreateProfileComponent implements OnInit {
   profile?: Profile;
 
   items: MenuItem[] = [];
-
-  sendProfileData: Subject<Profile> = new Subject<Profile>();
 
   constructor(private profileService: ProfileService) {
 
