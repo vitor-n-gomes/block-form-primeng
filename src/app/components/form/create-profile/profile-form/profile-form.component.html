@@ -14,7 +14,7 @@
             </div>
 
             <div class="col-12 md:col-12 lg:col-12 pb-0">
-                <h5 class="m-1 ml-2"> Address</h5>
+                <h5 class="m-1 ml-2 mb-2"> Address</h5>
             </div>
 
             <div class="col-12 md:col-6 lg:col-6 pb-0 pt-0">
@@ -41,6 +41,7 @@
 
     <ng-template pTemplate="footer">
         <p-button  styleClass="p-button-text"></p-button>
-        <button pButton pRipple type="submit" icon="pi pi-user-plus" form="formCreateProfile" label="Create Profile" class="p-button-outlined p-button-info"></button>
+        <button *ngIf="!isEdit" pButton pRipple type="submit" icon="pi pi-user-plus" form="formCreateProfile" label="Create Profile" class="p-button-outlined p-button-info"></button>
+        <button *ngIf="isEdit" pButton pRipple type="submit" icon="pi pi-user-edit" form="formCreateProfile" label="Edit Profile" class="p-button-outlined p-button-info"></button>
     </ng-template>
 </p-dialog>

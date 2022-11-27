@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, FormArray } from '@angular/forms';
+import { ProfileService } from 'src/app/service/profile.service';
 import { Profile } from '../../../../model/profile'
-
 @Component({
   selector: 'app-profile-form',
   templateUrl: './profile-form.component.html',
@@ -11,15 +11,14 @@ export class ProfileFormComponent implements OnInit {
 
   @Output() close: EventEmitter<any> = new EventEmitter();
 
-  @Input() profileData: Profile;
-
   @Input() display: boolean = true;
 
-  title: string = 'Create User';
+  title: string = 'Create Profile';
+  isEdit: boolean = false; 
 
   createUser: FormGroup;
 
-  constructor(private formBuilder: FormBuilder) {
+  constructor(private formBuilder: FormBuilder, private profileService: ProfileService) {
 
     this.createUser = this.formBuilder.group({
       firstName: ['', Validators.required],
@@ -34,8 +33,21 @@ export class ProfileFormComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log(this.profileData);
-    this.createUser.patchValue({...this.profileData});
+
+    this.title = 'Create Profile'; 
+    this.isEdit = false; 
+
+    this.profileService.profile.subscribe((response) => {
+      if(response){
+        
+        this.createUser.patchValue({ ...response })
+
+        this.title = 'Edit Profile - ' + response.firstName + ' ' + response.lastName;  
+        this.isEdit = true; 
+
+      }
+    });
+
   }
 
   onSubmit() {

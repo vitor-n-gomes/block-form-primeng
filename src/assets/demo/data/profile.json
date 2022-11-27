@@ -3,7 +3,7 @@
         "_id": "6382b09d6c0fd1b123a40c87",
         "firstName": "Bernadette Shannon",
         "lastName": "Roman",
-        "zipCode": 4994,
+        "zip": 4994,
         "state": "Utah",
         "city": "Sterling",
         "street": "Bath Avenue"
@@ -12,7 +12,7 @@
         "_id": "6382b09dd001228563abd441",
         "firstName": "Kelli Lopez",
         "lastName": "Gutierrez",
-        "zipCode": 2036,
+        "zip": 2036,
         "state": "Wyoming",
         "city": "Bagtown",
         "street": "Brigham Street"
@@ -21,7 +21,7 @@
         "_id": "6382b09d2c77e39ba54eebd7",
         "firstName": "Mann Barber",
         "lastName": "Holcomb",
-        "zipCode": 8206,
+        "zip": 8206,
         "state": "Virginia",
         "city": "Longbranch",
         "street": "Anthony Street"
@@ -30,7 +30,7 @@
         "_id": "6382b09dc71b9f35875cbfc7",
         "firstName": "Shannon Ramirez",
         "lastName": "Bell",
-        "zipCode": 7129,
+        "zip": 7129,
         "state": "Hawaii",
         "city": "Shindler",
         "street": "Union Avenue"
@@ -39,7 +39,7 @@
         "_id": "6382b09d36eed591cb9bbb2c",
         "firstName": "Anthony Hartman",
         "lastName": "Hooper",
-        "zipCode": 5433,
+        "zip": 5433,
         "state": "North Dakota",
         "city": "Norfolk",
         "street": "Bogart Street"
@@ -48,7 +48,7 @@
         "_id": "6382b0c3a2e34b0cc41db809",
         "firstName": "Norman Schroeder",
         "lastName": "Graves",
-        "zipCode": 9693,
+        "zip": 9693,
         "state": "New Hampshire",
         "city": "Belvoir",
         "street": "Noel Avenue"
@@ -57,7 +57,7 @@
         "_id": "6382b0c3ad5795d75f39806a",
         "firstName": "Ann Cardenas",
         "lastName": "Meadows",
-        "zipCode": 3115,
+        "zip": 3115,
         "state": "Virginia",
         "city": "Tioga",
         "street": "Crawford Avenue"
@@ -66,7 +66,7 @@
         "_id": "6382b0c38dae9889447c66f7",
         "firstName": "Alexandria Phillips",
         "lastName": "Williamson",
-        "zipCode": 9108,
+        "zip": 9108,
         "state": "Hawaii",
         "city": "Madrid",
         "street": "Beach Place"
@@ -75,7 +75,7 @@
         "_id": "6382b0c38999055747a231fa",
         "firstName": "Rhonda Baker",
         "lastName": "Mack",
-        "zipCode": 4904,
+        "zip": 4904,
         "state": "Ohio",
         "city": "Dupuyer",
         "street": "Bushwick Place"
@@ -84,7 +84,7 @@
         "_id": "6382b0c316523687c4c9d9da",
         "firstName": "Laverne Fleming",
         "lastName": "Zamora",
-        "zipCode": 1756,
+        "zip": 1756,
         "state": "Pennsylvania",
         "city": "Boling",
         "street": "Grimes Road"
@@ -93,7 +93,7 @@
         "_id": "6382b0c3bbfea14a8508c75c",
         "firstName": "Pitts Maxwell",
         "lastName": "Pennington",
-        "zipCode": 5264,
+        "zip": 5264,
         "state": "North Carolina",
         "city": "Hinsdale",
         "street": "King Street"
@@ -102,7 +102,7 @@
         "_id": "6382b0c3f322b4646cf436da",
         "firstName": "Beatriz Bray",
         "lastName": "Chapman",
-        "zipCode": 264,
+        "zip": 264,
         "state": "Wyoming",
         "city": "Connerton",
         "street": "Division Place"
@@ -111,7 +111,7 @@
         "_id": "6382b0d7c05007038893285d",
         "firstName": "Alison Duffy",
         "lastName": "Mcdonald",
-        "zipCode": 107,
+        "zip": 107,
         "state": "Minnesota",
         "city": "Sunwest",
         "street": "Waldorf Court"
@@ -120,7 +120,7 @@
         "_id": "6382b0d7bd8e69ade93a5f6b",
         "firstName": "Randi Palmer",
         "lastName": "Marquez",
-        "zipCode": 9925,
+        "zip": 9925,
         "state": "Texas",
         "city": "Cade",
         "street": "Glendale Court"
@@ -129,7 +129,7 @@
         "_id": "6382b0d79cceb2aef36548b0",
         "firstName": "Padilla Silva",
         "lastName": "Norman",
-        "zipCode": 9067,
+        "zip": 9067,
         "state": "Rhode Island",
         "city": "Wright",
         "street": "Stuart Street"
@@ -138,7 +138,7 @@
         "_id": "6382b0d7da2565c2e619211d",
         "firstName": "Opal Oliver",
         "lastName": "Sheppard",
-        "zipCode": 5072,
+        "zip": 5072,
         "state": "Louisiana",
         "city": "Yonah",
         "street": "Harman Street"
@@ -147,7 +147,7 @@
         "_id": "6382b0d78cc900671f1d265e",
         "firstName": "Willa Wynn",
         "lastName": "Gonzalez",
-        "zipCode": 8775,
+        "zip": 8775,
         "state": "Puerto Rico",
         "city": "Vandiver",
         "street": "Borinquen Pl"
@@ -156,7 +156,7 @@
         "_id": "6382b0e467818bd427c78978",
         "firstName": "Ingram Morales",
         "lastName": "Wong",
-        "zipCode": 5600,
+        "zip": 5600,
         "state": "Indiana",
         "city": "Marbury",
         "street": "Conselyea Street"
@@ -165,7 +165,7 @@
         "_id": "6382b0e47c01f48adf2797aa",
         "firstName": "Mia Webster",
         "lastName": "Tran",
-        "zipCode": 1160,
+        "zip": 1160,
         "state": "South Carolina",
         "city": "Orason",
         "street": "Berkeley Place"
@@ -174,7 +174,7 @@
         "_id": "6382b0e459938ad596608f54",
         "firstName": "Kelley Duran",
         "lastName": "Mckay",
-        "zipCode": 3390,
+        "zip": 3390,
         "state": "Arizona",
         "city": "Waukeenah",
         "street": "Bank Street"
@@ -183,7 +183,7 @@
         "_id": "6382b0e458cc5b494baf3fc1",
         "firstName": "Janie Dunlap",
         "lastName": "Burns",
-        "zipCode": 3888,
+        "zip": 3888,
         "state": "Oregon",
         "city": "Carlton",
         "street": "Sumner Place"
@@ -192,7 +192,7 @@
         "_id": "6382b0e482813f17dca0325d",
         "firstName": "Vivian Flowers",
         "lastName": "Williams",
-        "zipCode": 9656,
+        "zip": 9656,
         "state": "Pennsylvania",
         "city": "Bend",
         "street": "Newport Street"
@@ -201,7 +201,7 @@
         "_id": "6382b0e444aa70b5d2fef960",
         "firstName": "Kimberley Woods",
         "lastName": "Webb",
-        "zipCode": 826,
+        "zip": 826,
         "state": "Wyoming",
         "city": "Fannett",
         "street": "Montague Street"
@@ -210,7 +210,7 @@
         "_id": "6382b0e424cb35472dd82ff8",
         "firstName": "Leach Benjamin",
         "lastName": "Gross",
-        "zipCode": 9625,
+        "zip": 9625,
         "state": "Arkansas",
         "city": "Datil",
         "street": "Grand Street"
@@ -219,7 +219,7 @@
         "_id": "6382b0f19d67650947c5b6d8",
         "firstName": "Jewel Wilkinson",
         "lastName": "Saunders",
-        "zipCode": 8309,
+        "zip": 8309,
         "state": "Indiana",
         "city": "Bakersville",
         "street": "Cumberland Walk"
@@ -228,7 +228,7 @@
         "_id": "6382b0f181647dc00261f8b6",
         "firstName": "Gilbert Solomon",
         "lastName": "Rollins",
-        "zipCode": 3504,
+        "zip": 3504,
         "state": "Kansas",
         "city": "Weeksville",
         "street": "Meserole Avenue"
@@ -237,7 +237,7 @@
         "_id": "6382b0f131f6812d27315842",
         "firstName": "Bender Cantu",
         "lastName": "Walton",
-        "zipCode": 1539,
+        "zip": 1539,
         "state": "Palau",
         "city": "Winfred",
         "street": "Underhill Avenue"
@@ -246,7 +246,7 @@
         "_id": "6382b0f1d6e30b852bf97b7e",
         "firstName": "Solis Harris",
         "lastName": "Campbell",
-        "zipCode": 5221,
+        "zip": 5221,
         "state": "Wisconsin",
         "city": "Romeville",
         "street": "Summit Street"
@@ -255,7 +255,7 @@
         "_id": "6382b0f1d941da915d7cadae",
         "firstName": "Woodward Lynn",
         "lastName": "White",
-        "zipCode": 821,
+        "zip": 821,
         "state": "Michigan",
         "city": "Brule",
         "street": "Laurel Avenue"
@@ -264,7 +264,7 @@
         "_id": "6382b0f13f7d4ef8025f8abe",
         "firstName": "Oneil Owens",
         "lastName": "Rodriquez",
-        "zipCode": 958,
+        "zip": 958,
         "state": "Virgin Islands",
         "city": "Canoochee",
         "street": "Verona Place"
@@ -273,7 +273,7 @@
         "_id": "6382b0f10764c13a5af0a59d",
         "firstName": "Evans Haley",
         "lastName": "Daniels",
-        "zipCode": 7902,
+        "zip": 7902,
         "state": "Massachusetts",
         "city": "Albany",
         "street": "Kathleen Court"
@@ -282,7 +282,7 @@
         "_id": "6382b0fe1fee62a8466402f1",
         "firstName": "Kari Stuart",
         "lastName": "Parrish",
-        "zipCode": 6459,
+        "zip": 6459,
         "state": "Louisiana",
         "city": "Coultervillle",
         "street": "Beaver Street"
@@ -291,7 +291,7 @@
         "_id": "6382b0feb7989eb21cd85d41",
         "firstName": "Hayes Wells",
         "lastName": "Patel",
-        "zipCode": 2602,
+        "zip": 2602,
         "state": "Minnesota",
         "city": "Dupuyer",
         "street": "Schenck Place"
@@ -300,7 +300,7 @@
         "_id": "6382b0fe87f79f485a525d3c",
         "firstName": "Wiley Jensen",
         "lastName": "Baxter",
-        "zipCode": 5426,
+        "zip": 5426,
         "state": "Iowa",
         "city": "Takilma",
         "street": "Decatur Street"
@@ -309,7 +309,7 @@
         "_id": "6382b0fe547fb01e63b04ffa",
         "firstName": "Logan Pitts",
         "lastName": "Gilliam",
-        "zipCode": 7497,
+        "zip": 7497,
         "state": "Maine",
         "city": "Calvary",
         "street": "Clermont Avenue"
@@ -318,7 +318,7 @@
         "_id": "6382b0fe09c4c32af8628fe8",
         "firstName": "Swanson Burton",
         "lastName": "Mercer",
-        "zipCode": 6510,
+        "zip": 6510,
         "state": "Michigan",
         "city": "Riverton",
         "street": "Village Road"
@@ -327,7 +327,7 @@
         "_id": "6382b0fe7c9a9e0bf4a0f618",
         "firstName": "Juanita Davis",
         "lastName": "Chen",
-        "zipCode": 1773,
+        "zip": 1773,
         "state": "Guam",
         "city": "Delshire",
         "street": "Morgan Avenue"
