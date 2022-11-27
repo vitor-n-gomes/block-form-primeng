@@ -1,7 +1,9 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, FormArray } from '@angular/forms';
+
 import { ProfileService } from 'src/app/service/profile.service';
 import { Profile } from '../../../../model/profile'
+
 @Component({
   selector: 'app-profile-form',
   templateUrl: './profile-form.component.html',
@@ -36,7 +38,7 @@ export class ProfileFormComponent implements OnInit {
 
     this.title = 'Create Profile'; 
     this.isEdit = false; 
-
+    
     this.profileService.profile.subscribe((response) => {
       if(response){
         
@@ -55,8 +57,10 @@ export class ProfileFormComponent implements OnInit {
   }
 
   onClose() {
+    this.createUser.reset();
     this.display = false;
     this.close.emit();
   }
+
 
 }
