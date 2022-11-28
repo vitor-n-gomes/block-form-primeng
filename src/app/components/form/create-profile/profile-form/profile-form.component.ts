@@ -73,5 +73,8 @@ export class ProfileFormComponent implements OnInit {
 
   }
 
+  ngOnDestroy() {
+    this.subscription.unsubscribe();
+  }
 
 }
